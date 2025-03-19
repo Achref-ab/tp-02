@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#bmiForm').submit(function(e){
-        e.preventDefault(); // منع إعادة تحميل الصفحة
+        e.preventDefault(); 
 
         var name = $('#name').val().trim();
         var weight = parseFloat($('#weight').val());
